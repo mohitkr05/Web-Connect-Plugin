@@ -1,0 +1,36 @@
+body.login {background:#D0D3DC}
+body.login div#login {}
+body.login div#login h1 {}
+body.login div#login h1 a {background-image: url('logo_wc.png');}
+body.login div#login form#loginform {
+background-color: #ffffff;
+border: 1px solid #292100;
+-moz-border-radius: 9px;
+-webkit-border-radius: 9px;
+border-radius: 9px;
+/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+-moz-box-shadow: 0px 0px 6px #000000;
+-webkit-box-shadow: 0px 0px 6px #000000;
+box-shadow: 0px 0px 6px #000000;
+/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+opacity: 0.98;
+-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 98);
+/*-ms-filter must come before filter*/
+filter: alpha(opacity = 98);
+/*INNER ELEMENTS MUST NOT BREAK THIS ELEMENTS BOUNDARIES*/
+/*All filters must be placed together*/
+
+}
+body.login div#login form#loginform p {color :#000}
+body.login div#login form#loginform p label {color :#000}
+body.login div#login form#loginform input {background:#f9f9f9}
+body.login div#login form#loginform input#user_login {background:#f9f9f9}
+body.login div#login form#loginform input#user_pass {background:#f9f9f9}
+body.login div#login form#loginform p.forgetmenot {}
+body.login div#login form#loginform p.forgetmenot input#rememberme {}
+body.login div#login form#loginform p.submit {background:#f9f9f9}
+body.login div#login form#loginform p.submit input#wp-submit {background:#000}
+body.login div#login p#nav {color :#000}
+body.login div#login p#nav a { color :#000}
+body.login div#login p#backtoblog {}
+body.login div#login p#backtoblog a {color :#000}
